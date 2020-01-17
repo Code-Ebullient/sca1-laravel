@@ -14,3 +14,17 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+// Route::get('/', 'AdminControllershow') ->('home');
+// Route::get('about', 'AdminController@show')->name('about');
+// Route::get('contact', 'AdminController@show')->name('contact');
+
+Route::middleware(['first', 'second'])->group(function () {
+    Route::get('/', function () {
+        // Uses first & second Middleware
+    });
+
+    Route::get('contact', function () {
+        // Uses first & second Middleware
+    });
+});
