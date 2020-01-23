@@ -2,7 +2,7 @@
 
 **This project is for the SCA Laravel Track Cohort 1, for a period of 3 months concepts in Laravel are taught and implemented in this project until a full fledged application is ready for deployment. It is an e-commerce store for She Code Africa merchandise, where awesome swag are vailable for purchase.**
 
-*Category*
+* Category *
 
 1. Authentication (Signin/Logout)
 2. List features
@@ -19,16 +19,15 @@ $ laravel install
 $ laravel project created
 $ php artisan serve
 
-**Author**
+# Author
 Peace Onyekachi - Mentee - Code-Ebullient
 
-Built With
+# Built With:
 Laravel - The framework used
-
 PHP - Language
 
-License
+# License
 This project is licensed under the MIT LICENSE
 
-Acknowledgments
+# Acknowledgments
 SCA Community
