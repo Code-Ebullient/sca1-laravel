@@ -86,11 +86,11 @@ class RouteServiceProvider extends ServiceProvider
      *
      * @return void
      */
-    // protected function mapFeatureRoutes()
-    // {
-    //     Route::prefix('feature')
-    //          ->middleware('feature')
-    //          ->namespace($this->namespace)
-    //          ->group(base_path('routes/feature.php'));
-    // }
+    protected function mapFeatureRoutes()
+    {
+        Route::prefix('feature')
+             ->middleware('feature')
+             ->namespace($this->namespace)
+             ->group(base_path('routes/feature.php'));
+    }
 }
