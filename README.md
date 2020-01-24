@@ -1,6 +1,6 @@
 # Sca1-e_commerce Project
 
-**This project is for the SCA Laravel Track Cohort 1, for a period of 3 months concepts in Laravel are taught and implemented in this project until a full fledged application is ready for deployment. It is an e-commerce store for She Code Africa merchandise, where awesome swag are vailable for purchase.**
+**This project is for the SCA Laravel Track Cohort 1, for a period of 3 months concepts in Laravel are taught and implemented in this project until a full fledged application is ready for deployment. It is an e-commerce store for She Code Africa merchandise, where awesome swag are vailable for purchase, according to my mentor**
 
 * Category *
 
