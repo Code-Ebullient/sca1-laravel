@@ -17,6 +17,13 @@ class RouteServiceProvider extends ServiceProvider
     protected $namespace = 'App\Http\Controllers';
 
     /**
+     * The path to the "home" route for your application.
+     * 
+     * @var string
+     */
+    public const HOME = '/home';
+
+    /**
      * Define your route model bindings, pattern filters, etc.
      *
      * @return void
@@ -40,6 +47,7 @@ class RouteServiceProvider extends ServiceProvider
         $this->mapWebRoutes();
 
         //
+        $this->mapFeatureRoutes();
     }
 
     /**
@@ -70,4 +78,19 @@ class RouteServiceProvider extends ServiceProvider
              ->namespace($this->namespace)
              ->group(base_path('routes/api.php'));
     }
+
+     /**
+     * Define the "Feature" routes for the application.
+     *
+     * These routes are typically stateless.
+     *
+     * @return void
+     */
+    // protected function mapFeatureRoutes()
+    // {
+    //     Route::prefix('feature')
+    //          ->middleware('feature')
+    //          ->namespace($this->namespace)
+    //          ->group(base_path('routes/feature.php'));
+    // }
 }
