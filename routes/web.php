@@ -24,6 +24,15 @@ Route::get('/home', function() {
     return 'This is the home page!!!';
 });
 
+Route::get('/about', function() {
+    return 'This is the about page!!!';
+});
+
+Route::get('/paid', [
+    'middleware' => 'Paid',
+    'uses' => 'CartController@index',
+]);
+
 // Passing additional param to the route
 Route::get('/basic/{name}', function($name) {
     return "Hola $name, mucho gusto";
