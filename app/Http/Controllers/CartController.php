@@ -14,6 +14,7 @@ class CartController extends Controller
     public function index()
     {
         //
+        echo "<br> For paid users.";
     }
 
     /**
