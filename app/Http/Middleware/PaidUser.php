@@ -15,6 +15,12 @@ class PaidUser
      */
     public function handle($request, Closure $next)
     {
+        echo "Paid: ".$paid;
         return $next($request);
     }
+
+    // public function terminate($request, $reponse)
+    // {
+    //     echo "No payment history recorded ";
+    // }
 }
