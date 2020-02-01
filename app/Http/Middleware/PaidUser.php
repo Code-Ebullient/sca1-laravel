@@ -13,14 +13,15 @@ class PaidUser
      * @param  \Closure  $next
      * @return mixed
      */
-    public function handle($request, Closure $next)
+    public function handle($request, Closure $next, $Paid)
     {
-        echo "Paid: ".$paid;
+        
+        echo "Role: ".$Paid;
         return $next($request);
     }
 
-    // public function terminate($request, $reponse)
-    // {
-    //     echo "No payment history recorded ";
-    // }
+    public function terminate($request, $response)
+    {
+        echo "No payment history recorded ";
+    }
 }
