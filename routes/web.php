@@ -20,9 +20,22 @@ Route::get('/', function () {
 // Route::get('contact', 'AdminController@show')->name('contact');
 
 // Basic Route
-Route::get('/home', function() {
-    return 'This is the home page!!!';
+// Route::get('/home', function() {
+//     return 'This is the home page!!!';
+// });
+
+Route::get('/about', function() {
+    return 'This is the about page!!!';
 });
+
+Route::get('/contact', function () {
+    return view('contact');
+});
+
+Route::get('/Paid', [
+    'middleware' => 'Paid: Users',
+    'uses' => 'CartController@index',
+]);
 
 // Passing additional param to the route
 Route::get('/basic/{name}', function($name) {
