@@ -11,9 +11,19 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Route::get('/', function () {
+//     return view('welcome');
+// });
+
+
+Route::get('/', 'FrontendController@index');
+
+Route::get('/about', 'FrontendController@about');
+
+Route::get('/product', 'FrontendController@product');
+
+Route::get('/contact', 'FrontendController@contact');
+
 
 // Route::get('/', 'AdminControllershow') ->('home');
 // Route::get('about', 'AdminController@show')->name('about');
@@ -24,13 +34,13 @@ Route::get('/', function () {
 //     return 'This is the home page!!!';
 // });
 
-Route::get('/about', function() {
-    return 'This is the about page!!!';
-});
+// Route::get('/about', function() {
+//     return 'This is the about page!!!';
+// });
 
-Route::get('/contact', function () {
-    return view('contact');
-});
+// Route::get('/contact', function () {
+//     return view('contact');
+// });
 
 Route::get('/Paid', [
     'middleware' => 'Paid: Users',
