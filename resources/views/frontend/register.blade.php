@@ -1,3 +1,11 @@
+@extends('layouts.frontend')
+
+@section('title')
+	Login
+@endsection
+
+@section('content')
+
 <!--banner-->
 <div class="banner-top">
 	<div class="container">
@@ -51,3 +59,9 @@
 </div>
 
 <!--//login-->
+
+@endsection
+
+@section('script')
+    
+@endsection
