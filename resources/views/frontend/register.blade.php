@@ -11,7 +11,7 @@
 	<div class="container">
 		<h1>Register</h1>
 		<em></em>
-		<h2><a href="index.html">Home</a><label>/</label>Register</h2>
+		<h2><a href="/">Home</a><label>/</label>Register</h2>
 	</div>
 </div>
 <!--login-->
@@ -48,7 +48,7 @@
 				 
 				 <p>Pellentesque neque leo, dictum sit amet accumsan non, dignissim ac mauris. Mauris rhoncus, lectus tincidunt tempus aliquam, odio 
 				 libero tincidunt metus, sed euismod elit enim ut mi. Nulla porttitor et dolor sed condimentum. Praesent porttitor lorem dui, in pulvinar enim rhoncus vitae. Curabitur tincidunt, turpis ac lobortis hendrerit, ex elit vestibulum est, at faucibus erat ligula non neque.</p>
-				<a href="login.html" class="hvr-skew-backward">Login</a>
+				<a href="/login" class="hvr-skew-backward">Login</a>
 
 			</div>
 			
