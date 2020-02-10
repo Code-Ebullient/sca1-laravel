@@ -25,4 +25,14 @@ class FrontendController extends Controller
     {
         return view('frontend.contact');
     }
+
+    public function login()
+    {
+        return view('frontend.login');
+    }
+
+    public function register()
+    {
+        return view('frontend.register');
+    }
 }

@@ -24,6 +24,10 @@ Route::get('/product', 'FrontendController@product');
 
 Route::get('/contact', 'FrontendController@contact');
 
+Route::get('/login', 'FrontendController@login');
+
+Route::get('/register', 'FrontendController@register');
+
 
 // Route::get('/', 'AdminControllershow') ->('home');
 // Route::get('about', 'AdminController@show')->name('about');
