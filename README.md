@@ -1,6 +1,6 @@
-# Sca1-e_commerce Project
+# Sca1-e_commerce Mentee Project
 
-**This project is for the SCA Laravel Track Cohort 1. It is going to be an e-commerce store for She Code Africa merchandise, as a mentee, i will work on this project for a period of 3 months after which will then be deployed to heroku as a full application.**
+** This project is for the SCA Laravel Track Cohort 1. It is going to be an e-commerce store for She Code Africa merchandise, as a mentee, i will work on this project for a period of 3 months after which will then be deployed to heroku as a full application. **
 
 * Category *
 
