@@ -1,6 +1,6 @@
 # Sca1-e_commerce Project
 
-**This project is for the SCA Laravel Track Cohort 1, for a period of 3 months concepts in Laravel are taught and implemented in this project until a full fledged application is ready for deployment. It is an e-commerce store for She Code Africa merchandise, where awesome swag are vailable for purchase, according to my mentor**
+**This project is for the SCA Laravel Track Cohort 1. It is going to be an e-commerce store for She Code Africa merchandise, as a mentee, i will work on this project for a period of 3 months after which will then be deployed to heroku as a full application.**
 
 * Category *
 
@@ -12,7 +12,7 @@
 
 To run this project, install it locally using composer:
 
-$ cd ./Sca-e_commerce
+$ cd ./Sca1-laravel
 $ composer install
 $ phpMyAdmin install
 $ laravel install
